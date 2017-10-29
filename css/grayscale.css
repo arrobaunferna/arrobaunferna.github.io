@@ -183,6 +183,34 @@ a {
     outline: none;
     background-color: #42DCA3; }
 
+.btn-outline {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+  color: #fff;
+  border: solid 2px #fff;
+  background: 0 0;
+}
+
+.btn-social {
+  border-radius: 100%;
+  border: 2px solid #42DCA3;
+  display: inline-block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 45px;
+  text-align: center;
+  width: 50px;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-social:focus, .btn-social:hover {
+  color: black;
+  background: #42DCA3;
+}
+
 ul.banner-social-buttons {
   margin-top: 0; }
   @media (max-width: 1199px) {
